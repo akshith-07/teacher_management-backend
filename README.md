@@ -39,6 +39,22 @@ The application calculates and display the average number of classes taken by te
 
 The application utilizes a file-based system to store teacher records. Each teacher's information is stored in a structured format within files, providing easy access and management of data.
 
+## API Documentation
+
+The backend provides the following API endpoints:
+
+- **GET /api/v1/teachers:** Get a list of all teachers.
+- **POST /api/v1/teachers/validate:** Validate teacher information.
+- **POST /api/v1/teachers:** Add a new teacher.
+- **PATCH /api/v1/teachers:** Update teacher information.
+- **DELETE /api/v1/teachers:** Delete a teacher.
+
+API documentation and example requests can be found [here](./API_DOCUMENTATION.md).
+
+## Database
+
+The application uses MongoDB as the database.
+
 ## Usage
 
 To use the Teacher Management application:
