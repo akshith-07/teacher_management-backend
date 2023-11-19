@@ -29,7 +29,7 @@ const initialTeachersData = [
     dateOfBirth: "1990-07-18",
     numOfClasses: 6,
   },
-  // Add more teacher records as needed
+  
 ];
 
 module.exports = initialTeachersData;
